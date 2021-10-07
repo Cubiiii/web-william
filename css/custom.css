@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.bg-red-logo {
+  background-color: #f11c0d;
+}
+
+.nav-item-ml {
+  margin-left: 40px;
+}
+
+.margent {
+  margin-top: 150px;
+}
+
+.bg-menu-internas {
+  background-image: url(../img/portadas/portada-rojo.jpg);
+}
+
+.line {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 60px;
+  border-bottom: 3px solid #f11c0d;
+}
+
+.title {
+  color: #024efc;
+}
+
+.subtitle {
+  color: #fff;
+}
+
+.subtitlep {
+  color: #f11c0d;
+}
+
+.radius {
+  border-radius: 350px 150px 250px;
+}
+
+.notice {
+  color: #fff;
+}
+
+.colorbg-map {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(252, 255, 255, 0.95))), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qWocE9vljWI_sMIqDMfWeEhfp7sgoTQJ6w&usqp=CAU);
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(252, 255, 255, 0.95)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qWocE9vljWI_sMIqDMfWeEhfp7sgoTQJ6w&usqp=CAU);
+  font-size: 30%;
+}
+
+.paragraph {
+  text-align: justify !important;
+}
+
+.networks {
+  position: fixed;
+  z-index: 2000;
+  top: 35%;
+  right: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.networks .whatsapp {
+  background-color: #13b955;
+  border-radius: 15px 0px 0px 15px;
+  padding: 5px;
+}
+
+.networks a {
+  color: #fff;
+}
+/*# sourceMappingURL=custom.css.map */

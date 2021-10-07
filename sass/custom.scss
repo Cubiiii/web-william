@@ -1,0 +1,107 @@
+$colortitle: #024efc;
+$colorwhite: #fff;
+$colorplomo: #636363;
+// $colorp: #a1152f;
+// $colorborder-title-botton: #f93829;
+// $colorbg-propuesta: url(/img/index/tapiz.jpg);
+$colorbg-propuesta: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qWocE9vljWI_sMIqDMfWeEhfp7sgoTQJ6w&usqp=CAU);
+$colorbg-map: #4e6aaa;
+$portada-roja: url(../img/portadas/portada-rojo.jpg);
+$portada-azul: url(../img/portadas/portada-azul.jpg);
+$color-red-logo: #f11c0d;
+
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    // color: $colorplomo;
+}
+
+
+.bg-red-logo {
+    background-color: $color-red-logo;
+}
+
+.nav-item-ml{
+    margin-left: 40px;
+}
+
+.margent {
+    margin-top: 150px;
+}
+
+.bg-menu-internas {
+    background-image: $portada-roja;
+}
+
+.line {
+    align-content: center;
+    width: 60px;
+    border-bottom: 3px solid $color-red-logo;
+}
+
+.title {
+    color: $colortitle;
+}
+  
+.subtitle {
+    color: $colorwhite; 
+}
+
+.subtitlep {
+    color: $color-red-logo;
+}
+
+.radius {
+    border-radius: 350px 150px 250px;
+}
+
+.notice {
+    color: $colorwhite;
+}
+ 
+.colorbg-map {
+    background: linear-gradient( rgba(255,255,255,0.90), rgba(252,255,255,0.95)), $colorbg-propuesta;
+    // background-image: $colorbg-propuesta;
+    font-size: 30%;
+}
+
+.paragraph {
+    text-align: justify !important;
+}
+
+// efectnotice:hover .imagen {
+//     width: 120%;
+// }
+  
+// .efectnotice .imagen {
+//     -webkit-transition-property: width 2s;
+//     transition-property: width 2s;
+// }
+
+
+
+.networks {
+    position: fixed;
+    z-index: 2000;
+    top: 35%;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    
+    .whatsapp {
+        background-color: #13b955 ;
+        border-radius: 15px 0px 0px 15px;
+        padding: 5px;
+    }
+
+    a{
+        color: $colorwhite;
+    }
+    
+    // i{
+    //     margin-left: 2px;
+    //     font-size: 30px;
+    // }
+    
+
+}
