@@ -14,8 +14,12 @@ body {
   margin-top: 150px;
 }
 
-.bg-menu-internas {
+.bg-menu-internar {
   background-image: url(../img/portadas/portada-rojo.jpg);
+}
+
+.bg-menu-internab {
+  background-image: url(../img/portadas/portada-azul.jpg);
 }
 
 .line {
