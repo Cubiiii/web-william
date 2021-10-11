@@ -18,6 +18,8 @@
 
     <!-- animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>William</title>
 </head>
 
@@ -30,8 +32,7 @@
                 <a href="" class="link-light">Intranet</a>
             </div>
         </div>
-        <nav
-            class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="/">
                     <img src="./img/index/logo.png" alt="logo" width="80">
@@ -74,15 +75,15 @@
     <!-- banner -->
     <div class="container-fluid margent bg-menu-internab margent">
         <div class="container py-3 text-white">
-            <div class="row d-flex align-items-center">
-                <div class="col-12 d-inline-block">
-                    <a href="/" class="text-white mx-3" style="text-decoration: none;">Inicio</a> /
+            <div class="row">
+                <div class="col-12">
+                    <a href="/" class="text-white me-3" style="text-decoration: none;">Inicio</a> /
                     <a href="#" class="text-white mx-3" style="text-decoration: none;">Niveles</a>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-12 text-center">
-                    <h2 class="text-uppercase fs-1">Niveles</h2>
+            <div class="row my-4">
+                <div class="col-12">
+                    <h2 class="text-uppercase" style="font-size: 50px;">Niveles</h2>
                 </div>
             </div>
         </div>
@@ -124,7 +125,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-5 paragraph d-flex align-items-center px-4 animate__animated animate__wobble">
+            <div class="col-12 col-md-5 paragraph d-flex align-items-center px-4" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-out">
                 <p class="fs-5">El Colegio William Shakespeare, ofrece una educación
                     basada en competencias a través del diseño de actividades
                     didácticas para los niños de 3, 4 y 5 años.
@@ -214,7 +215,7 @@
             <!-- <div class="line"></div> -->
         </div>
         <div class="row justify-content-evenly mt-md-5 mt-3">
-            <div class="col-12 col-md-5 paragraph d-flex align-items-center px-4 animate__animated animate__wobble">
+            <div class="col-12 col-md-5 paragraph d-flex align-items-center px-4" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-out">
                 <p class="fs-5">La educación es el factor que influye de manera directa en el progreso de las personas y
                     el desarrollo de una sociedad, el Colegio William Shakespeare promueve una educación de
                     calidad y con un respaldo en su trayectoria por más de 30 años. Nos caracterizamos por formar
@@ -339,15 +340,20 @@
 
 
     <!-- SCRIPT BOOTSTRAP -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
     <div class="container-fluid bg-red-logo">
         <div class="container">
             <a href="" class="link-light">Desarrollado por SensoftSolutions</a>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
+
 
 </body>
 

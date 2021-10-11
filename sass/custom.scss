@@ -14,7 +14,8 @@ $color-red-logo: #f11c0d;
 
 body{
     font-family: 'Roboto', sans-serif !important;
-    // color: $colorplomo;
+    color: $colorplomo;
+    overflow-x: hidden;
 }
 
 
@@ -36,6 +37,7 @@ body{
 
 .bg-menu-internab {
     background-image: $portada-azul;
+    background-size: 100%;
 }
 
 .bg-contacto {

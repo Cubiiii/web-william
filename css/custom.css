@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif !important;
+  color: #636363;
+  overflow-x: hidden;
 }
 
 .bg-red-logo {
@@ -20,6 +22,7 @@ body {
 
 .bg-menu-internab {
   background-image: url(../img/portadas/portada-azul.jpg);
+  background-size: 100%;
 }
 
 .bg-contacto {
