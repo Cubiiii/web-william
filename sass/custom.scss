@@ -11,6 +11,7 @@ $portada-azul: url(../img/portadas/portada-azul.jpg);
 $portada-contacto: url(../img/contactos/IMG_20210212_1448231.jpg);
 // $portada-contacto: url(../img/contactos/IMG_20210212_144823.jpg);
 $color-red-logo: #f11c0d;
+$color-bg-contactanos: #03a9f469;
 
 
 body{
@@ -32,6 +33,13 @@ body{
     margin-top: 150px;
 }
 
+.bg-contacto {
+    // background-image: $portada-contacto;
+    background: linear-gradient(rgba( 33, 33, 33, 0.2),
+                rgba(33, 33, 33, 0.2)), url(../img/contactos/IMG_20210212_144823.jpg) ;
+    background-size: 100%;
+}
+
 .bg-menu-internar {
     background-image: $portada-roja;
 }
@@ -41,16 +49,6 @@ body{
     background-size: 100%;
 }
 
-.bg-contacto {
-    background-image: $portada-contacto;
-    background-size: 100%;
-}
-
-.line {
-    align-content: center;
-    width: 60px;
-    border-bottom: 3px solid $color-red-logo;
-}
 
 .title {
     color: $colortitle;
@@ -70,6 +68,10 @@ body{
 
 .notice {
     color: $colorwhite;
+}
+
+.bg-contactanos {
+    background-color: $color-bg-contactanos;
 }
  
 .colorbg-map {

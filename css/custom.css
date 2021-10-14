@@ -16,6 +16,12 @@ body {
   margin-top: 150px;
 }
 
+.bg-contacto {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 33, 33, 0.2)), to(rgba(33, 33, 33, 0.2))), url(../img/contactos/IMG_20210212_144823.jpg);
+  background: linear-gradient(rgba(33, 33, 33, 0.2), rgba(33, 33, 33, 0.2)), url(../img/contactos/IMG_20210212_144823.jpg);
+  background-size: 100%;
+}
+
 .bg-menu-internar {
   background-image: url(../img/portadas/portada-rojo.jpg);
 }
@@ -23,18 +29,6 @@ body {
 .bg-menu-internab {
   background-image: url(../img/portadas/portada-azul.jpg);
   background-size: 100%;
-}
-
-.bg-contacto {
-  background-image: url(../img/contactos/IMG_20210212_1448231.jpg);
-  background-size: 100%;
-}
-
-.line {
-  -ms-flex-line-pack: center;
-      align-content: center;
-  width: 60px;
-  border-bottom: 3px solid #f11c0d;
 }
 
 .title {
@@ -55,6 +49,10 @@ body {
 
 .notice {
   color: #fff;
+}
+
+.bg-contactanos {
+  background-color: #03a9f469;
 }
 
 .colorbg-map {
