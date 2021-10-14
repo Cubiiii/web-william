@@ -65,6 +65,87 @@ body {
   text-align: justify !important;
 }
 
+.drop {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+
+.drop figure {
+  margin: 0;
+  position: relative;
+}
+
+.drop figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.drop figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: #2c3f52;
+  color: #ed4e6e;
+}
+
+.drop figure figcaption h3 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.cs-style-1 figcaption {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+}
+
+.cs-style-1 figcaption h3 {
+  margin-top: 70px;
+}
+
+.cs-style-1 figcaption span {
+  display: block;
+}
+
+.cs-style-1 figure:hover figcaption {
+  opacity: 1;
+  -webkit-transform: translate(15px, 15px);
+          transform: translate(15px, 15px);
+}
+
+.cs-style-2 figure img {
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.cs-style-2 figure:hover img {
+  -webkit-transform: translateY(-90px);
+          transform: translateY(-90px);
+}
+
+.cs-style-2 figure figcaption {
+  height: 90px;
+  width: 100%;
+  top: auto;
+  bottom: 0;
+}
+
 .networks {
   position: fixed;
   z-index: 2000;

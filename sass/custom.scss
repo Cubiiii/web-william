@@ -95,6 +95,93 @@ body{
 
 
 
+// Animaciones
+.drop{
+    display: inline-block;
+	// width: 440px;
+	// margin: 0;
+	// padding: 20px;
+	text-align: left;
+	position: relative;
+
+    figure{
+        margin: 0;
+        position: relative;
+
+        img {
+            max-width: 100%;
+            display: block;
+            position: relative;
+        }
+
+        figcaption{
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px;
+            align-content: center;
+            background: #2c3f52;
+            color: #ed4e6e; 
+
+            h3 { 
+                margin: 0;
+	            padding: 0;
+	            color: #fff;
+            }
+        }
+
+    }
+}
+
+.cs-style-1{
+    figcaption {
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        text-align: center;
+        backface-visibility: hidden;
+        transition: transform 0.3s, opacity 0.3s;
+        
+        h3 {
+            margin-top: 70px;
+        }
+
+        span {
+            display: block;
+        }
+
+    }
+
+    figure:hover figcaption{
+        opacity: 1;
+	    transform: translate(15px, 15px);
+    }
+    
+
+}   
+
+.cs-style-2 {
+    figure{
+        img {
+            z-index: 10;
+            transition: transform 0.4s;
+        }    
+        &:hover img {
+            transform: translateY(-90px);
+        }
+        figcaption {
+            height: 90px;
+	        width: 100%;
+	        top: auto;
+	        bottom: 0;
+        }
+    }
+
+    
+}
+
+
+// flotante redes sociales
 .networks {
     position: fixed;
     z-index: 2000;
@@ -111,12 +198,5 @@ body{
 
     a{
         color: $colorwhite;
-    }
-    
-    // i{
-    //     margin-left: 2px;
-    //     font-size: 30px;
-    // }
-    
-
+    }    
 }
